@@ -1,0 +1,28 @@
+{
+    "input" : [
+        {
+            "name" : "x86",
+            "sum" : "input/x86.sum",
+            "log" : "input/x86.log",
+            "logURL" : "log/x86.log.html",
+            "tooltip" : "ARCH: x86<br />Special flags: none<br />GCC: 4.7.1 FSF<br />GDC: 9bcc0b71(gdc-4.7.1)",
+            "link" : "http://gdcproject.org/wiki/Test Results/x86"
+        },
+        {
+            "name" : "x86-64",
+            "sum" : "input/x86-64.sum",
+            "log" : "input/x86-64.log",
+            "logURL" : "log/x86-64.log.html",
+            "tooltip" : "ARCH: x86-64<br />Special flags: none<br />GCC: 4.7.1 FSF<br />GDC: 9bcc0b71(gdc-4.7.1)",
+            "link" : "http://gdcproject.org/wiki/Test Results/x86-64"
+        },
+        {
+            "name" : "raspbian",
+            "sum" : "input/raspbian.sum",
+            "log" : "input/raspbian.log",
+            "logURL" : "log/raspbian.log.html",
+            "tooltip" : "ARCH: ARMv6+VFP (Raspberry Pi)<br />Special flags: with-float=hard<br />GCC: 4.7.1 Debian<br />GDC: 9bcc0b71(gdc-4.7.1)",
+            "link" : "http://gdcproject.org/wiki/Test Results/raspbian"
+        }
+    ]
+}
