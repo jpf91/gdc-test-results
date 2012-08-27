@@ -1,0 +1,1343 @@
+Test Run By jpf on Thu Aug 23 13:59:08 2012
+Native configuration is x86_64-unknown-linux-gnu
+
+		=== gdc tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Running /home/jpf/gdc/gcc-4.7.1/gcc/testsuite/gdc.test/d_do_test.exp ...
+PASS: compilable/99bottles.d (test for excess errors)
+PASS: compilable/99bottles.d output-exists 99bottles.o
+PASS: compilable/art4769.d (test for excess errors)
+PASS: compilable/art4769.d output-exists art4769.o
+PASS: compilable/b33.d (test for excess errors)
+PASS: compilable/b33.d output-exists b33.o
+PASS: compilable/callconv.d (test for excess errors)
+PASS: compilable/callconv.d output-exists callconv.o
+PASS: compilable/compile1.d (test for excess errors)
+PASS: compilable/compile1.d output-exists compile1.o
+PASS: compilable/const.d (test for excess errors)
+PASS: compilable/const.d output-exists const.o
+PASS: compilable/ddoc1.d (test for excess errors)
+PASS: compilable/ddoc1.d output-exists ddoc1.o
+PASS: compilable/ddoc10.d (test for excess errors)
+PASS: compilable/ddoc10.d output-exists ddoc10.o
+PASS: compilable/ddoc11.d (test for excess errors)
+PASS: compilable/ddoc11.d output-exists ddoc11.o
+PASS: compilable/ddoc12.d (test for excess errors)
+FAIL: compilable/ddoc12.d output-exists ddoc12.o
+PASS: compilable/ddoc13.d (test for excess errors)
+PASS: compilable/ddoc13.d output-exists ddoc13.o
+PASS: compilable/ddoc14.d (test for excess errors)
+PASS: compilable/ddoc14.d output-exists ddoc14.o
+PASS: compilable/ddoc2.d (test for excess errors)
+PASS: compilable/ddoc2.d output-exists ddoc2.o
+PASS: compilable/ddoc3.d (test for excess errors)
+PASS: compilable/ddoc3.d output-exists ddoc3.o
+PASS: compilable/ddoc4.d (test for excess errors)
+PASS: compilable/ddoc4.d output-exists ddoc4.o
+PASS: compilable/ddoc5.d (test for excess errors)
+PASS: compilable/ddoc5.d output-exists ddoc5.o
+PASS: compilable/ddoc6.d (test for excess errors)
+PASS: compilable/ddoc6.d output-exists ddoc6.o
+PASS: compilable/ddoc6491.d (test for excess errors)
+PASS: compilable/ddoc6491.d output-exists ddoc6491.o
+PASS: compilable/ddoc7.d (test for excess errors)
+PASS: compilable/ddoc7.d output-exists ddoc7.o
+PASS: compilable/ddoc8.d (test for excess errors)
+PASS: compilable/ddoc8.d output-exists ddoc8.o
+PASS: compilable/ddoc9.d (test for excess errors)
+PASS: compilable/ddoc9.d output-exists ddoc9.o
+PASS: compilable/debuginfo.d (test for excess errors)
+PASS: compilable/debuginfo.d output-exists debuginfo.o
+PASS: compilable/defa.d (test for excess errors)
+PASS: compilable/defa.d output-exists defa.o
+PASS: compilable/deprecate2.d (test for excess errors)
+PASS: compilable/deprecate2.d output-exists deprecate2.o
+PASS: compilable/derivedarray.d (test for excess errors)
+PASS: compilable/derivedarray.d output-exists derivedarray.o
+PASS: compilable/empty_file.d (test for excess errors)
+PASS: compilable/empty_file.d output-exists empty_file.o
+PASS: compilable/forward1.d (test for excess errors)
+PASS: compilable/forward1.d output-exists forward1.o
+PASS: compilable/header.d (test for excess errors)
+PASS: compilable/header.d output-exists header.o
+PASS: compilable/interpret3.d (test for excess errors)
+FAIL: compilable/interpret3.d output-exists interpret3.o
+PASS: compilable/json.d (test for excess errors)
+PASS: compilable/json.d output-exists json.o
+PASS: compilable/line.d (test for excess errors)
+FAIL: compilable/line.d output-exists line.o
+PASS: compilable/parse6719.d (test for excess errors)
+PASS: compilable/parse6719.d output-exists parse6719.o
+PASS: compilable/test1.d (test for excess errors)
+PASS: compilable/test1.d output-exists test1.o
+PASS: compilable/test1537.d (test for excess errors)
+PASS: compilable/test1537.d output-exists test1537.o
+PASS: compilable/test25.d (test for excess errors)
+PASS: compilable/test25.d output-exists test25.o
+PASS: compilable/test4375.d (test for excess errors)
+PASS: compilable/test4375.d output-exists test4375.o
+PASS: compilable/test50.d (test for excess errors)
+PASS: compilable/test50.d output-exists test50.o
+PASS: compilable/test55.d (test for excess errors)
+PASS: compilable/test55.d output-exists test55.o
+PASS: compilable/test59.d (test for excess errors)
+PASS: compilable/test59.d output-exists test59.o
+PASS: compilable/test6013.d (test for excess errors)
+PASS: compilable/test6013.d output-exists test6013.o
+PASS: compilable/test6056a.d (test for excess errors)
+PASS: compilable/test6056a.d output-exists test6056a.o
+PASS: compilable/test6056b.d (test for excess errors)
+PASS: compilable/test6056b.d output-exists test6056b.o
+PASS: compilable/test6056c.d (test for excess errors)
+PASS: compilable/test6056c.d output-exists test6056c.o
+PASS: compilable/test61.d (test for excess errors)
+PASS: compilable/test61.d output-exists test61.o
+PASS: compilable/test62.d (test for excess errors)
+PASS: compilable/test62.d output-exists test62.o
+PASS: compilable/test63.d (test for excess errors)
+PASS: compilable/test63.d output-exists test63.o
+PASS: compilable/test65.d (test for excess errors)
+PASS: compilable/test65.d output-exists test65.o
+PASS: compilable/test66.d (test for excess errors)
+PASS: compilable/test66.d output-exists test66.o
+PASS: compilable/test67.d (test for excess errors)
+PASS: compilable/test67.d output-exists test67.o
+PASS: compilable/test68.d (test for excess errors)
+PASS: compilable/test68.d output-exists test68.o
+PASS: compilable/test69.d (test for excess errors)
+PASS: compilable/test69.d output-exists test69.o
+PASS: compilable/test70.d (test for excess errors)
+PASS: compilable/test70.d output-exists test70.o
+PASS: compilable/test71.d (test for excess errors)
+PASS: compilable/test71.d output-exists test71.o
+PASS: compilable/test7190.d (test for excess errors)
+FAIL: compilable/test7190.d output-exists test7190.o
+PASS: compilable/test72.d (test for excess errors)
+PASS: compilable/test72.d output-exists test72.o
+PASS: compilable/test7399.d (test for excess errors)
+PASS: compilable/test7399.d output-exists test7399.o
+PASS: compilable/test7754.d (test for excess errors)
+PASS: compilable/test7754.d output-exists test7754.o
+PASS: compilable/testInference.d (test for excess errors)
+PASS: compilable/testInference.d output-exists testInference.o
+PASS: compilable/testVRP.d (test for excess errors)
+PASS: compilable/testVRP.d output-exists testVRP.o
+PASS: compilable/testcov1.d (test for excess errors)
+PASS: compilable/testcov1.d output-exists testcov1.o
+PASS: compilable/testexpression.d (test for excess errors)
+PASS: compilable/testexpression.d output-exists testexpression.o
+PASS: compilable/testfptr.d (test for excess errors)
+PASS: compilable/testfptr.d output-exists testfptr.o
+PASS: compilable/testprofile.d (test for excess errors)
+PASS: compilable/testprofile.d output-exists testprofile.o
+PASS: compilable/xheader.d (test for excess errors)
+PASS: compilable/xheader.d output-exists xheader.o
+PASS: fail_compilation/bug5.d (test for excess errors)
+PASS: fail_compilation/bug5.d output-exists-not bug5.s
+PASS: fail_compilation/bug5b.d (test for excess errors)
+PASS: fail_compilation/bug5b.d output-exists-not bug5b.s
+PASS: fail_compilation/fail1.d (test for excess errors)
+PASS: fail_compilation/fail1.d output-exists-not fail1.s
+PASS: fail_compilation/fail10.d (test for excess errors)
+PASS: fail_compilation/fail10.d output-exists-not fail10.s
+PASS: fail_compilation/fail100.d (test for excess errors)
+PASS: fail_compilation/fail100.d output-exists-not fail100.s
+PASS: fail_compilation/fail101.d (test for excess errors)
+PASS: fail_compilation/fail101.d output-exists-not fail101.s
+PASS: fail_compilation/fail102.d (test for excess errors)
+PASS: fail_compilation/fail102.d output-exists-not fail102.s
+PASS: fail_compilation/fail103.d (test for excess errors)
+PASS: fail_compilation/fail103.d output-exists-not fail103.s
+PASS: fail_compilation/fail104.d (test for excess errors)
+PASS: fail_compilation/fail104.d output-exists-not fail104.s
+PASS: fail_compilation/fail105.d (test for excess errors)
+PASS: fail_compilation/fail105.d output-exists-not fail105.s
+PASS: fail_compilation/fail106.d (test for excess errors)
+PASS: fail_compilation/fail106.d output-exists-not fail106.s
+PASS: fail_compilation/fail108.d (test for excess errors)
+PASS: fail_compilation/fail108.d output-exists-not fail108.s
+PASS: fail_compilation/fail109.d (test for excess errors)
+PASS: fail_compilation/fail109.d output-exists-not fail109.s
+PASS: fail_compilation/fail11.d (test for excess errors)
+PASS: fail_compilation/fail11.d output-exists-not fail11.s
+PASS: fail_compilation/fail110.d (test for excess errors)
+PASS: fail_compilation/fail110.d output-exists-not fail110.s
+PASS: fail_compilation/fail111.d (test for excess errors)
+PASS: fail_compilation/fail111.d output-exists-not fail111.s
+PASS: fail_compilation/fail112.d (test for excess errors)
+PASS: fail_compilation/fail112.d output-exists-not fail112.s
+PASS: fail_compilation/fail113.d (test for excess errors)
+PASS: fail_compilation/fail113.d output-exists-not fail113.s
+PASS: fail_compilation/fail114.d (test for excess errors)
+PASS: fail_compilation/fail114.d output-exists-not fail114.s
+PASS: fail_compilation/fail115.d (test for excess errors)
+PASS: fail_compilation/fail115.d output-exists-not fail115.s
+PASS: fail_compilation/fail116.d (test for excess errors)
+PASS: fail_compilation/fail116.d output-exists-not fail116.s
+PASS: fail_compilation/fail117.d (test for excess errors)
+PASS: fail_compilation/fail117.d output-exists-not fail117.s
+PASS: fail_compilation/fail118.d (test for excess errors)
+PASS: fail_compilation/fail118.d output-exists-not fail118.s
+PASS: fail_compilation/fail119.d (test for excess errors)
+PASS: fail_compilation/fail119.d output-exists-not fail119.s
+PASS: fail_compilation/fail12.d (test for excess errors)
+PASS: fail_compilation/fail12.d output-exists-not fail12.s
+PASS: fail_compilation/fail120.d (test for excess errors)
+PASS: fail_compilation/fail120.d output-exists-not fail120.s
+PASS: fail_compilation/fail121.d (test for excess errors)
+PASS: fail_compilation/fail121.d output-exists-not fail121.s
+PASS: fail_compilation/fail122.d (test for excess errors)
+PASS: fail_compilation/fail122.d output-exists-not fail122.s
+PASS: fail_compilation/fail123.d (test for excess errors)
+PASS: fail_compilation/fail123.d output-exists-not fail123.s
+PASS: fail_compilation/fail124.d (test for excess errors)
+PASS: fail_compilation/fail124.d output-exists-not fail124.s
+PASS: fail_compilation/fail125.d (test for excess errors)
+PASS: fail_compilation/fail125.d output-exists-not fail125.s
+PASS: fail_compilation/fail126.d (test for excess errors)
+PASS: fail_compilation/fail126.d output-exists-not fail126.s
+PASS: fail_compilation/fail127.d (test for excess errors)
+PASS: fail_compilation/fail127.d output-exists-not fail127.s
+PASS: fail_compilation/fail128.d (test for excess errors)
+PASS: fail_compilation/fail128.d output-exists-not fail128.s
+PASS: fail_compilation/fail129.d (test for excess errors)
+FAIL: fail_compilation/fail129.d output-exists-not fail129.s
+PASS: fail_compilation/fail130.d (test for excess errors)
+PASS: fail_compilation/fail130.d output-exists-not fail130.s
+PASS: fail_compilation/fail131.d (test for excess errors)
+PASS: fail_compilation/fail131.d output-exists-not fail131.s
+PASS: fail_compilation/fail1313a.d (test for excess errors)
+PASS: fail_compilation/fail1313a.d output-exists-not fail1313a.s
+PASS: fail_compilation/fail1313b.d (test for excess errors)
+PASS: fail_compilation/fail1313b.d output-exists-not fail1313b.s
+PASS: fail_compilation/fail132.d (test for excess errors)
+PASS: fail_compilation/fail132.d output-exists-not fail132.s
+PASS: fail_compilation/fail133.d (test for excess errors)
+PASS: fail_compilation/fail133.d output-exists-not fail133.s
+PASS: fail_compilation/fail134.d (test for excess errors)
+PASS: fail_compilation/fail134.d output-exists-not fail134.s
+PASS: fail_compilation/fail136.d (test for excess errors)
+PASS: fail_compilation/fail136.d output-exists-not fail136.s
+PASS: fail_compilation/fail137.d (test for excess errors)
+PASS: fail_compilation/fail137.d output-exists-not fail137.s
+PASS: fail_compilation/fail138.d (test for excess errors)
+PASS: fail_compilation/fail138.d output-exists-not fail138.s
+PASS: fail_compilation/fail139.d (test for excess errors)
+PASS: fail_compilation/fail139.d output-exists-not fail139.s
+PASS: fail_compilation/fail14.d (test for excess errors)
+PASS: fail_compilation/fail14.d output-exists-not fail14.s
+PASS: fail_compilation/fail140.d (test for excess errors)
+PASS: fail_compilation/fail140.d output-exists-not fail140.s
+PASS: fail_compilation/fail141.d (test for excess errors)
+PASS: fail_compilation/fail141.d output-exists-not fail141.s
+PASS: fail_compilation/fail142.d (test for excess errors)
+PASS: fail_compilation/fail142.d output-exists-not fail142.s
+PASS: fail_compilation/fail143.d (test for excess errors)
+PASS: fail_compilation/fail143.d output-exists-not fail143.s
+PASS: fail_compilation/fail144.d (test for excess errors)
+PASS: fail_compilation/fail144.d output-exists-not fail144.s
+PASS: fail_compilation/fail145.d (test for excess errors)
+PASS: fail_compilation/fail145.d output-exists-not fail145.s
+PASS: fail_compilation/fail15.d (test for excess errors)
+PASS: fail_compilation/fail15.d output-exists-not fail15.s
+PASS: fail_compilation/fail150.d (test for excess errors)
+PASS: fail_compilation/fail150.d output-exists-not fail150.s
+PASS: fail_compilation/fail151.d (test for excess errors)
+PASS: fail_compilation/fail151.d output-exists-not fail151.s
+PASS: fail_compilation/fail152.d (test for excess errors)
+PASS: fail_compilation/fail152.d output-exists-not fail152.s
+PASS: fail_compilation/fail153.d (test for excess errors)
+PASS: fail_compilation/fail153.d output-exists-not fail153.s
+PASS: fail_compilation/fail154.d (test for excess errors)
+PASS: fail_compilation/fail154.d output-exists-not fail154.s
+PASS: fail_compilation/fail155.d (test for excess errors)
+PASS: fail_compilation/fail155.d output-exists-not fail155.s
+PASS: fail_compilation/fail156.d (test for excess errors)
+PASS: fail_compilation/fail156.d output-exists-not fail156.s
+PASS: fail_compilation/fail157.d (test for excess errors)
+PASS: fail_compilation/fail157.d output-exists-not fail157.s
+PASS: fail_compilation/fail158.d (test for excess errors)
+PASS: fail_compilation/fail158.d output-exists-not fail158.s
+PASS: fail_compilation/fail159.d (test for excess errors)
+PASS: fail_compilation/fail159.d output-exists-not fail159.s
+PASS: fail_compilation/fail16.d (test for excess errors)
+PASS: fail_compilation/fail16.d output-exists-not fail16.s
+PASS: fail_compilation/fail160.d (test for excess errors)
+PASS: fail_compilation/fail160.d output-exists-not fail160.s
+PASS: fail_compilation/fail161.d (test for excess errors)
+PASS: fail_compilation/fail161.d output-exists-not fail161.s
+PASS: fail_compilation/fail162.d (test for excess errors)
+PASS: fail_compilation/fail162.d output-exists-not fail162.s
+PASS: fail_compilation/fail163.d (test for excess errors)
+PASS: fail_compilation/fail163.d output-exists-not fail163.s
+PASS: fail_compilation/fail164.d (test for excess errors)
+PASS: fail_compilation/fail164.d output-exists-not fail164.s
+PASS: fail_compilation/fail165.d (test for excess errors)
+PASS: fail_compilation/fail165.d output-exists-not fail165.s
+PASS: fail_compilation/fail166.d (test for excess errors)
+PASS: fail_compilation/fail166.d output-exists-not fail166.s
+PASS: fail_compilation/fail167.d (test for excess errors)
+PASS: fail_compilation/fail167.d output-exists-not fail167.s
+PASS: fail_compilation/fail168.d (test for excess errors)
+PASS: fail_compilation/fail168.d output-exists-not fail168.s
+PASS: fail_compilation/fail169.d (test for excess errors)
+PASS: fail_compilation/fail169.d output-exists-not fail169.s
+PASS: fail_compilation/fail17.d (test for excess errors)
+PASS: fail_compilation/fail17.d output-exists-not fail17.s
+PASS: fail_compilation/fail170.d (test for excess errors)
+PASS: fail_compilation/fail170.d output-exists-not fail170.s
+PASS: fail_compilation/fail171.d (test for excess errors)
+PASS: fail_compilation/fail171.d output-exists-not fail171.s
+PASS: fail_compilation/fail172.d (test for excess errors)
+PASS: fail_compilation/fail172.d output-exists-not fail172.s
+PASS: fail_compilation/fail173.d (test for excess errors)
+PASS: fail_compilation/fail173.d output-exists-not fail173.s
+PASS: fail_compilation/fail174.d (test for excess errors)
+PASS: fail_compilation/fail174.d output-exists-not fail174.s
+PASS: fail_compilation/fail175.d (test for excess errors)
+PASS: fail_compilation/fail175.d output-exists-not fail175.s
+PASS: fail_compilation/fail176.d (test for excess errors)
+PASS: fail_compilation/fail176.d output-exists-not fail176.s
+PASS: fail_compilation/fail177.d (test for excess errors)
+PASS: fail_compilation/fail177.d output-exists-not fail177.s
+PASS: fail_compilation/fail178.d (test for excess errors)
+PASS: fail_compilation/fail178.d output-exists-not fail178.s
+PASS: fail_compilation/fail179.d (test for excess errors)
+PASS: fail_compilation/fail179.d output-exists-not fail179.s
+PASS: fail_compilation/fail18.d (test for excess errors)
+PASS: fail_compilation/fail18.d output-exists-not fail18.s
+PASS: fail_compilation/fail180.d (test for excess errors)
+PASS: fail_compilation/fail180.d output-exists-not fail180.s
+PASS: fail_compilation/fail181.d (test for excess errors)
+PASS: fail_compilation/fail181.d output-exists-not fail181.s
+PASS: fail_compilation/fail182.d (test for excess errors)
+PASS: fail_compilation/fail182.d output-exists-not fail182.s
+PASS: fail_compilation/fail183.d (test for excess errors)
+PASS: fail_compilation/fail183.d output-exists-not fail183.s
+PASS: fail_compilation/fail184.d (test for excess errors)
+PASS: fail_compilation/fail184.d output-exists-not fail184.s
+PASS: fail_compilation/fail185.d (test for excess errors)
+PASS: fail_compilation/fail185.d output-exists-not fail185.s
+PASS: fail_compilation/fail186.d (test for excess errors)
+PASS: fail_compilation/fail186.d output-exists-not fail186.s
+PASS: fail_compilation/fail187.d (test for excess errors)
+PASS: fail_compilation/fail187.d output-exists-not fail187.s
+PASS: fail_compilation/fail188.d (test for excess errors)
+PASS: fail_compilation/fail188.d output-exists-not fail188.s
+PASS: fail_compilation/fail189.d (test for excess errors)
+PASS: fail_compilation/fail189.d output-exists-not fail189.s
+PASS: fail_compilation/fail190.d (test for excess errors)
+PASS: fail_compilation/fail190.d output-exists-not fail190.s
+PASS: fail_compilation/fail191.d (test for excess errors)
+PASS: fail_compilation/fail191.d output-exists-not fail191.s
+PASS: fail_compilation/fail192.d (test for excess errors)
+PASS: fail_compilation/fail192.d output-exists-not fail192.s
+PASS: fail_compilation/fail193.d (test for excess errors)
+PASS: fail_compilation/fail193.d output-exists-not fail193.s
+PASS: fail_compilation/fail194.d (test for excess errors)
+PASS: fail_compilation/fail194.d output-exists-not fail194.s
+PASS: fail_compilation/fail195.d (test for excess errors)
+PASS: fail_compilation/fail195.d output-exists-not fail195.s
+PASS: fail_compilation/fail196.d (test for excess errors)
+PASS: fail_compilation/fail196.d output-exists-not fail196.s
+PASS: fail_compilation/fail197.d (test for excess errors)
+PASS: fail_compilation/fail197.d output-exists-not fail197.s
+PASS: fail_compilation/fail198.d (test for excess errors)
+PASS: fail_compilation/fail198.d output-exists-not fail198.s
+PASS: fail_compilation/fail199.d (test for excess errors)
+PASS: fail_compilation/fail199.d output-exists-not fail199.s
+PASS: fail_compilation/fail2.d (test for excess errors)
+PASS: fail_compilation/fail2.d output-exists-not fail2.s
+PASS: fail_compilation/fail20.d (test for excess errors)
+PASS: fail_compilation/fail20.d output-exists-not fail20.s
+PASS: fail_compilation/fail200.d (test for excess errors)
+PASS: fail_compilation/fail200.d output-exists-not fail200.s
+PASS: fail_compilation/fail201.d (test for excess errors)
+PASS: fail_compilation/fail201.d output-exists-not fail201.s
+PASS: fail_compilation/fail202.d (test for excess errors)
+PASS: fail_compilation/fail202.d output-exists-not fail202.s
+PASS: fail_compilation/fail203.d (test for excess errors)
+PASS: fail_compilation/fail203.d output-exists-not fail203.s
+PASS: fail_compilation/fail204.d (test for excess errors)
+PASS: fail_compilation/fail204.d output-exists-not fail204.s
+PASS: fail_compilation/fail205.d (test for excess errors)
+PASS: fail_compilation/fail205.d output-exists-not fail205.s
+PASS: fail_compilation/fail206.d (test for excess errors)
+PASS: fail_compilation/fail206.d output-exists-not fail206.s
+PASS: fail_compilation/fail207.d (test for excess errors)
+PASS: fail_compilation/fail207.d output-exists-not fail207.s
+PASS: fail_compilation/fail208.d (test for excess errors)
+PASS: fail_compilation/fail208.d output-exists-not fail208.s
+PASS: fail_compilation/fail209.d (test for excess errors)
+PASS: fail_compilation/fail209.d output-exists-not fail209.s
+PASS: fail_compilation/fail212.d (test for excess errors)
+PASS: fail_compilation/fail212.d output-exists-not fail212.s
+PASS: fail_compilation/fail213.d (test for excess errors)
+PASS: fail_compilation/fail213.d output-exists-not fail213.s
+PASS: fail_compilation/fail214.d (test for excess errors)
+PASS: fail_compilation/fail214.d output-exists-not fail214.s
+PASS: fail_compilation/fail215.d (test for excess errors)
+PASS: fail_compilation/fail215.d output-exists-not fail215.s
+PASS: fail_compilation/fail216.d (test for excess errors)
+PASS: fail_compilation/fail216.d output-exists-not fail216.s
+PASS: fail_compilation/fail217.d (test for excess errors)
+PASS: fail_compilation/fail217.d output-exists-not fail217.s
+PASS: fail_compilation/fail218.d (test for excess errors)
+PASS: fail_compilation/fail218.d output-exists-not fail218.s
+PASS: fail_compilation/fail22.d (test for excess errors)
+PASS: fail_compilation/fail22.d output-exists-not fail22.s
+PASS: fail_compilation/fail220.d (test for excess errors)
+PASS: fail_compilation/fail220.d output-exists-not fail220.s
+PASS: fail_compilation/fail221.d (test for excess errors)
+PASS: fail_compilation/fail221.d output-exists-not fail221.s
+PASS: fail_compilation/fail222.d (test for excess errors)
+PASS: fail_compilation/fail222.d output-exists-not fail222.s
+PASS: fail_compilation/fail223.d (test for excess errors)
+PASS: fail_compilation/fail223.d output-exists-not fail223.s
+PASS: fail_compilation/fail224.d (test for excess errors)
+PASS: fail_compilation/fail224.d output-exists-not fail224.s
+PASS: fail_compilation/fail225.d (test for excess errors)
+PASS: fail_compilation/fail225.d output-exists-not fail225.s
+PASS: fail_compilation/fail226.d (test for excess errors)
+PASS: fail_compilation/fail226.d output-exists-not fail226.s
+PASS: fail_compilation/fail227.d (test for excess errors)
+PASS: fail_compilation/fail227.d output-exists-not fail227.s
+PASS: fail_compilation/fail228.d (test for excess errors)
+PASS: fail_compilation/fail228.d output-exists-not fail228.s
+PASS: fail_compilation/fail229.d (test for excess errors)
+PASS: fail_compilation/fail229.d output-exists-not fail229.s
+PASS: fail_compilation/fail23.d (test for excess errors)
+PASS: fail_compilation/fail23.d output-exists-not fail23.s
+PASS: fail_compilation/fail231.d (test for excess errors)
+PASS: fail_compilation/fail231.d output-exists-not fail231.s
+PASS: fail_compilation/fail232.d (test for excess errors)
+PASS: fail_compilation/fail232.d output-exists-not fail232.s
+PASS: fail_compilation/fail233.d (test for excess errors)
+PASS: fail_compilation/fail233.d output-exists-not fail233.s
+PASS: fail_compilation/fail235.d (test for excess errors)
+PASS: fail_compilation/fail235.d output-exists-not fail235.s
+PASS: fail_compilation/fail236.d (test for excess errors)
+PASS: fail_compilation/fail236.d output-exists-not fail236.s
+PASS: fail_compilation/fail2361.d (test for excess errors)
+PASS: fail_compilation/fail2361.d output-exists-not fail2361.s
+PASS: fail_compilation/fail237.d (test for excess errors)
+PASS: fail_compilation/fail237.d output-exists-not fail237.s
+PASS: fail_compilation/fail238.d (test for excess errors)
+PASS: fail_compilation/fail238.d output-exists-not fail238.s
+PASS: fail_compilation/fail239.d (test for excess errors)
+PASS: fail_compilation/fail239.d output-exists-not fail239.s
+PASS: fail_compilation/fail24.d (test for excess errors)
+PASS: fail_compilation/fail24.d output-exists-not fail24.s
+PASS: fail_compilation/fail240.d (test for excess errors)
+PASS: fail_compilation/fail240.d output-exists-not fail240.s
+PASS: fail_compilation/fail241.d (test for excess errors)
+PASS: fail_compilation/fail241.d output-exists-not fail241.s
+PASS: fail_compilation/fail242.d (test for excess errors)
+PASS: fail_compilation/fail242.d output-exists-not fail242.s
+PASS: fail_compilation/fail243.d (test for excess errors)
+PASS: fail_compilation/fail243.d output-exists-not fail243.s
+PASS: fail_compilation/fail244.d (test for excess errors)
+PASS: fail_compilation/fail244.d output-exists-not fail244.s
+PASS: fail_compilation/fail245.d (test for excess errors)
+PASS: fail_compilation/fail245.d output-exists-not fail245.s
+PASS: fail_compilation/fail246.d (test for excess errors)
+PASS: fail_compilation/fail246.d output-exists-not fail246.s
+PASS: fail_compilation/fail247.d (test for excess errors)
+PASS: fail_compilation/fail247.d output-exists-not fail247.s
+PASS: fail_compilation/fail248.d (test for excess errors)
+PASS: fail_compilation/fail248.d output-exists-not fail248.s
+PASS: fail_compilation/fail2483.d (test for excess errors)
+PASS: fail_compilation/fail2483.d output-exists-not fail2483.s
+PASS: fail_compilation/fail249.d (test for excess errors)
+PASS: fail_compilation/fail249.d output-exists-not fail249.s
+PASS: fail_compilation/fail25.d (test for excess errors)
+PASS: fail_compilation/fail25.d output-exists-not fail25.s
+PASS: fail_compilation/fail250.d (test for excess errors)
+PASS: fail_compilation/fail250.d output-exists-not fail250.s
+PASS: fail_compilation/fail251.d (test for excess errors)
+PASS: fail_compilation/fail251.d output-exists-not fail251.s
+PASS: fail_compilation/fail252.d (test for excess errors)
+PASS: fail_compilation/fail252.d output-exists-not fail252.s
+PASS: fail_compilation/fail253.d (test for excess errors)
+PASS: fail_compilation/fail253.d output-exists-not fail253.s
+PASS: fail_compilation/fail254.d (test for excess errors)
+PASS: fail_compilation/fail254.d output-exists-not fail254.s
+PASS: fail_compilation/fail256.d (test for excess errors)
+PASS: fail_compilation/fail256.d output-exists-not fail256.s
+PASS: fail_compilation/fail257.d (test for excess errors)
+PASS: fail_compilation/fail257.d output-exists-not fail257.s
+PASS: fail_compilation/fail258.d (test for excess errors)
+PASS: fail_compilation/fail258.d output-exists-not fail258.s
+PASS: fail_compilation/fail259.d (test for excess errors)
+PASS: fail_compilation/fail259.d output-exists-not fail259.s
+PASS: fail_compilation/fail260.d (test for excess errors)
+PASS: fail_compilation/fail260.d output-exists-not fail260.s
+PASS: fail_compilation/fail261.d (test for excess errors)
+PASS: fail_compilation/fail261.d output-exists-not fail261.s
+PASS: fail_compilation/fail262.d (test for excess errors)
+PASS: fail_compilation/fail262.d output-exists-not fail262.s
+PASS: fail_compilation/fail263.d (test for excess errors)
+PASS: fail_compilation/fail263.d output-exists-not fail263.s
+PASS: fail_compilation/fail264.d (test for excess errors)
+PASS: fail_compilation/fail264.d output-exists-not fail264.s
+PASS: fail_compilation/fail265.d (test for excess errors)
+PASS: fail_compilation/fail265.d output-exists-not fail265.s
+PASS: fail_compilation/fail266.d (test for excess errors)
+PASS: fail_compilation/fail266.d output-exists-not fail266.s
+PASS: fail_compilation/fail267.d (test for excess errors)
+PASS: fail_compilation/fail267.d output-exists-not fail267.s
+PASS: fail_compilation/fail268.d (test for excess errors)
+PASS: fail_compilation/fail268.d output-exists-not fail268.s
+PASS: fail_compilation/fail269.d (test for excess errors)
+PASS: fail_compilation/fail269.d output-exists-not fail269.s
+PASS: fail_compilation/fail27.d (test for excess errors)
+PASS: fail_compilation/fail27.d output-exists-not fail27.s
+PASS: fail_compilation/fail270.d (test for excess errors)
+PASS: fail_compilation/fail270.d output-exists-not fail270.s
+PASS: fail_compilation/fail272.d (test for excess errors)
+PASS: fail_compilation/fail272.d output-exists-not fail272.s
+PASS: fail_compilation/fail273.d (test for excess errors)
+PASS: fail_compilation/fail273.d output-exists-not fail273.s
+PASS: fail_compilation/fail274.d (test for excess errors)
+PASS: fail_compilation/fail274.d output-exists-not fail274.s
+PASS: fail_compilation/fail2740.d (test for excess errors)
+PASS: fail_compilation/fail2740.d output-exists-not fail2740.s
+PASS: fail_compilation/fail275.d (test for excess errors)
+PASS: fail_compilation/fail275.d output-exists-not fail275.s
+PASS: fail_compilation/fail276.d (test for excess errors)
+PASS: fail_compilation/fail276.d output-exists-not fail276.s
+PASS: fail_compilation/fail278.d (test for excess errors)
+PASS: fail_compilation/fail278.d output-exists-not fail278.s
+PASS: fail_compilation/fail279.d (test for excess errors)
+PASS: fail_compilation/fail279.d output-exists-not fail279.s
+PASS: fail_compilation/fail28.d (test for excess errors)
+PASS: fail_compilation/fail28.d output-exists-not fail28.s
+PASS: fail_compilation/fail280.d (test for excess errors)
+PASS: fail_compilation/fail280.d output-exists-not fail280.s
+PASS: fail_compilation/fail281.d (test for excess errors)
+PASS: fail_compilation/fail281.d output-exists-not fail281.s
+PASS: fail_compilation/fail282.d (test for excess errors)
+PASS: fail_compilation/fail282.d output-exists-not fail282.s
+PASS: fail_compilation/fail283.d (test for excess errors)
+PASS: fail_compilation/fail283.d output-exists-not fail283.s
+PASS: fail_compilation/fail284.d (test for excess errors)
+PASS: fail_compilation/fail284.d output-exists-not fail284.s
+PASS: fail_compilation/fail285.d (test for excess errors)
+PASS: fail_compilation/fail285.d output-exists-not fail285.s
+PASS: fail_compilation/fail286.d (test for excess errors)
+PASS: fail_compilation/fail286.d output-exists-not fail286.s
+PASS: fail_compilation/fail287.d (test for excess errors)
+PASS: fail_compilation/fail287.d output-exists-not fail287.s
+PASS: fail_compilation/fail288.d (test for excess errors)
+PASS: fail_compilation/fail288.d output-exists-not fail288.s
+PASS: fail_compilation/fail289.d (test for excess errors)
+PASS: fail_compilation/fail289.d output-exists-not fail289.s
+PASS: fail_compilation/fail29.d (test for excess errors)
+PASS: fail_compilation/fail29.d output-exists-not fail29.s
+PASS: fail_compilation/fail290.d (test for excess errors)
+PASS: fail_compilation/fail290.d output-exists-not fail290.s
+PASS: fail_compilation/fail291.d (test for excess errors)
+PASS: fail_compilation/fail291.d output-exists-not fail291.s
+PASS: fail_compilation/fail292.d (test for excess errors)
+PASS: fail_compilation/fail292.d output-exists-not fail292.s
+PASS: fail_compilation/fail293.d (test for excess errors)
+PASS: fail_compilation/fail293.d output-exists-not fail293.s
+PASS: fail_compilation/fail296.d (test for excess errors)
+PASS: fail_compilation/fail296.d output-exists-not fail296.s
+PASS: fail_compilation/fail297.d (test for excess errors)
+PASS: fail_compilation/fail297.d output-exists-not fail297.s
+PASS: fail_compilation/fail298.d (test for excess errors)
+PASS: fail_compilation/fail298.d output-exists-not fail298.s
+PASS: fail_compilation/fail299.d (test for excess errors)
+PASS: fail_compilation/fail299.d output-exists-not fail299.s
+PASS: fail_compilation/fail3.d (test for excess errors)
+PASS: fail_compilation/fail3.d output-exists-not fail3.s
+PASS: fail_compilation/fail30.d (test for excess errors)
+PASS: fail_compilation/fail30.d output-exists-not fail30.s
+PASS: fail_compilation/fail301.d (test for excess errors)
+PASS: fail_compilation/fail301.d output-exists-not fail301.s
+PASS: fail_compilation/fail302.d (test for excess errors)
+PASS: fail_compilation/fail302.d output-exists-not fail302.s
+PASS: fail_compilation/fail303.d (test for excess errors)
+PASS: fail_compilation/fail303.d output-exists-not fail303.s
+PASS: fail_compilation/fail304.d (test for excess errors)
+PASS: fail_compilation/fail304.d output-exists-not fail304.s
+PASS: fail_compilation/fail305.d (test for excess errors)
+PASS: fail_compilation/fail305.d output-exists-not fail305.s
+PASS: fail_compilation/fail306.d (test for excess errors)
+PASS: fail_compilation/fail306.d output-exists-not fail306.s
+PASS: fail_compilation/fail307.d (test for excess errors)
+PASS: fail_compilation/fail307.d output-exists-not fail307.s
+PASS: fail_compilation/fail308.d (test for excess errors)
+FAIL: fail_compilation/fail308.d output-exists-not fail308.s
+PASS: fail_compilation/fail309.d (test for excess errors)
+PASS: fail_compilation/fail309.d output-exists-not fail309.s
+PASS: fail_compilation/fail31.d (test for excess errors)
+PASS: fail_compilation/fail31.d output-exists-not fail31.s
+PASS: fail_compilation/fail310.d (test for excess errors)
+PASS: fail_compilation/fail310.d output-exists-not fail310.s
+PASS: fail_compilation/fail311.d (test for excess errors)
+PASS: fail_compilation/fail311.d output-exists-not fail311.s
+PASS: fail_compilation/fail312.d (test for excess errors)
+PASS: fail_compilation/fail312.d output-exists-not fail312.s
+PASS: fail_compilation/fail313.d (test for excess errors)
+PASS: fail_compilation/fail313.d output-exists-not fail313.s
+PASS: fail_compilation/fail314.d (test for excess errors)
+PASS: fail_compilation/fail314.d output-exists-not fail314.s
+PASS: fail_compilation/fail315.d (test for excess errors)
+PASS: fail_compilation/fail315.d output-exists-not fail315.s
+PASS: fail_compilation/fail316.d (test for excess errors)
+PASS: fail_compilation/fail316.d output-exists-not fail316.s
+PASS: fail_compilation/fail317.d (test for excess errors)
+PASS: fail_compilation/fail317.d output-exists-not fail317.s
+PASS: fail_compilation/fail318.d (test for excess errors)
+PASS: fail_compilation/fail318.d output-exists-not fail318.s
+PASS: fail_compilation/fail319.d (test for excess errors)
+PASS: fail_compilation/fail319.d output-exists-not fail319.s
+PASS: fail_compilation/fail320.d (test for excess errors)
+PASS: fail_compilation/fail320.d output-exists-not fail320.s
+PASS: fail_compilation/fail322.d (test for excess errors)
+PASS: fail_compilation/fail322.d output-exists-not fail322.s
+PASS: fail_compilation/fail323.d (test for excess errors)
+PASS: fail_compilation/fail323.d output-exists-not fail323.s
+PASS: fail_compilation/fail324.d (test for excess errors)
+PASS: fail_compilation/fail324.d output-exists-not fail324.s
+PASS: fail_compilation/fail325.d (test for excess errors)
+PASS: fail_compilation/fail325.d output-exists-not fail325.s
+PASS: fail_compilation/fail327.d (test for excess errors)
+PASS: fail_compilation/fail327.d output-exists-not fail327.s
+PASS: fail_compilation/fail328.d (test for excess errors)
+PASS: fail_compilation/fail328.d output-exists-not fail328.s
+PASS: fail_compilation/fail329.d (test for excess errors)
+PASS: fail_compilation/fail329.d output-exists-not fail329.s
+PASS: fail_compilation/fail33.d (test for excess errors)
+PASS: fail_compilation/fail33.d output-exists-not fail33.s
+PASS: fail_compilation/fail330.d (test for excess errors)
+PASS: fail_compilation/fail330.d output-exists-not fail330.s
+PASS: fail_compilation/fail331.d (test for excess errors)
+PASS: fail_compilation/fail331.d output-exists-not fail331.s
+PASS: fail_compilation/fail332.d (test for excess errors)
+PASS: fail_compilation/fail332.d output-exists-not fail332.s
+PASS: fail_compilation/fail333.d (test for excess errors)
+PASS: fail_compilation/fail333.d output-exists-not fail333.s
+PASS: fail_compilation/fail334.d (test for excess errors)
+PASS: fail_compilation/fail334.d output-exists-not fail334.s
+PASS: fail_compilation/fail335.d (test for excess errors)
+PASS: fail_compilation/fail335.d output-exists-not fail335.s
+PASS: fail_compilation/fail3354.d (test for excess errors)
+PASS: fail_compilation/fail3354.d output-exists-not fail3354.s
+PASS: fail_compilation/fail336.d (test for excess errors)
+PASS: fail_compilation/fail336.d output-exists-not fail336.s
+PASS: fail_compilation/fail337.d (test for excess errors)
+PASS: fail_compilation/fail337.d output-exists-not fail337.s
+PASS: fail_compilation/fail34.d (test for excess errors)
+PASS: fail_compilation/fail34.d output-exists-not fail34.s
+PASS: fail_compilation/fail340.d (test for excess errors)
+PASS: fail_compilation/fail340.d output-exists-not fail340.s
+PASS: fail_compilation/fail341.d (test for excess errors)
+PASS: fail_compilation/fail341.d output-exists-not fail341.s
+PASS: fail_compilation/fail343.d (test for excess errors)
+PASS: fail_compilation/fail343.d output-exists-not fail343.s
+PASS: fail_compilation/fail344.d (test for excess errors)
+PASS: fail_compilation/fail344.d output-exists-not fail344.s
+PASS: fail_compilation/fail345.d (test for excess errors)
+PASS: fail_compilation/fail345.d output-exists-not fail345.s
+PASS: fail_compilation/fail346.d (test for excess errors)
+PASS: fail_compilation/fail346.d output-exists-not fail346.s
+PASS: fail_compilation/fail347.d (test for excess errors)
+PASS: fail_compilation/fail347.d output-exists-not fail347.s
+PASS: fail_compilation/fail348.d (test for excess errors)
+PASS: fail_compilation/fail348.d output-exists-not fail348.s
+PASS: fail_compilation/fail349.d (test for excess errors)
+PASS: fail_compilation/fail349.d output-exists-not fail349.s
+PASS: fail_compilation/fail35.d (test for excess errors)
+PASS: fail_compilation/fail35.d output-exists-not fail35.s
+PASS: fail_compilation/fail351.d (test for excess errors)
+PASS: fail_compilation/fail351.d output-exists-not fail351.s
+PASS: fail_compilation/fail352.d (test for excess errors)
+PASS: fail_compilation/fail352.d output-exists-not fail352.s
+PASS: fail_compilation/fail353.d (test for excess errors)
+PASS: fail_compilation/fail353.d output-exists-not fail353.s
+PASS: fail_compilation/fail354.d (test for excess errors)
+PASS: fail_compilation/fail354.d output-exists-not fail354.s
+PASS: fail_compilation/fail355.d (test for excess errors)
+PASS: fail_compilation/fail355.d output-exists-not fail355.s
+PASS: fail_compilation/fail356a.d (test for excess errors)
+PASS: fail_compilation/fail356a.d output-exists-not fail356a.s
+PASS: fail_compilation/fail356b.d (test for excess errors)
+PASS: fail_compilation/fail356b.d output-exists-not fail356b.s
+PASS: fail_compilation/fail356c.d (test for excess errors)
+PASS: fail_compilation/fail356c.d output-exists-not fail356c.s
+PASS: fail_compilation/fail3581a.d (test for excess errors)
+PASS: fail_compilation/fail3581a.d output-exists-not fail3581a.s
+PASS: fail_compilation/fail3581b.d (test for excess errors)
+PASS: fail_compilation/fail3581b.d output-exists-not fail3581b.s
+PASS: fail_compilation/fail36.d (test for excess errors)
+PASS: fail_compilation/fail36.d output-exists-not fail36.s
+PASS: fail_compilation/fail37.d (test for excess errors)
+PASS: fail_compilation/fail37.d output-exists-not fail37.s
+PASS: fail_compilation/fail38.d (test for excess errors)
+PASS: fail_compilation/fail38.d output-exists-not fail38.s
+PASS: fail_compilation/fail39.d (test for excess errors)
+PASS: fail_compilation/fail39.d output-exists-not fail39.s
+PASS: fail_compilation/fail4.d (test for excess errors)
+PASS: fail_compilation/fail4.d output-exists-not fail4.s
+PASS: fail_compilation/fail40.d (test for excess errors)
+PASS: fail_compilation/fail40.d output-exists-not fail40.s
+PASS: fail_compilation/fail41.d (test for excess errors)
+PASS: fail_compilation/fail41.d output-exists-not fail41.s
+PASS: fail_compilation/fail42.d (test for excess errors)
+PASS: fail_compilation/fail42.d output-exists-not fail42.s
+PASS: fail_compilation/fail4206.d (test for excess errors)
+PASS: fail_compilation/fail4206.d output-exists-not fail4206.s
+PASS: fail_compilation/fail4269a.d (test for excess errors)
+PASS: fail_compilation/fail4269a.d output-exists-not fail4269a.s
+PASS: fail_compilation/fail4269b.d (test for excess errors)
+PASS: fail_compilation/fail4269b.d output-exists-not fail4269b.s
+PASS: fail_compilation/fail4269c.d (test for excess errors)
+PASS: fail_compilation/fail4269c.d output-exists-not fail4269c.s
+PASS: fail_compilation/fail4269d.d (test for excess errors)
+PASS: fail_compilation/fail4269d.d output-exists-not fail4269d.s
+PASS: fail_compilation/fail4269e.d (test for excess errors)
+PASS: fail_compilation/fail4269e.d output-exists-not fail4269e.s
+PASS: fail_compilation/fail4269f.d (test for excess errors)
+PASS: fail_compilation/fail4269f.d output-exists-not fail4269f.s
+PASS: fail_compilation/fail4269g.d (test for excess errors)
+PASS: fail_compilation/fail4269g.d output-exists-not fail4269g.s
+PASS: fail_compilation/fail4375a.d (test for excess errors)
+PASS: fail_compilation/fail4375a.d output-exists-not fail4375a.s
+PASS: fail_compilation/fail4375b.d (test for excess errors)
+PASS: fail_compilation/fail4375b.d output-exists-not fail4375b.s
+PASS: fail_compilation/fail4375c.d (test for excess errors)
+PASS: fail_compilation/fail4375c.d output-exists-not fail4375c.s
+PASS: fail_compilation/fail4375d.d (test for excess errors)
+PASS: fail_compilation/fail4375d.d output-exists-not fail4375d.s
+PASS: fail_compilation/fail4375e.d (test for excess errors)
+PASS: fail_compilation/fail4375e.d output-exists-not fail4375e.s
+PASS: fail_compilation/fail4375f.d (test for excess errors)
+PASS: fail_compilation/fail4375f.d output-exists-not fail4375f.s
+PASS: fail_compilation/fail4375g.d (test for excess errors)
+PASS: fail_compilation/fail4375g.d output-exists-not fail4375g.s
+PASS: fail_compilation/fail4375h.d (test for excess errors)
+PASS: fail_compilation/fail4375h.d output-exists-not fail4375h.s
+PASS: fail_compilation/fail4375i.d (test for excess errors)
+PASS: fail_compilation/fail4375i.d output-exists-not fail4375i.s
+PASS: fail_compilation/fail4375j.d (test for excess errors)
+PASS: fail_compilation/fail4375j.d output-exists-not fail4375j.s
+PASS: fail_compilation/fail4375k.d (test for excess errors)
+PASS: fail_compilation/fail4375k.d output-exists-not fail4375k.s
+PASS: fail_compilation/fail4375l.d (test for excess errors)
+PASS: fail_compilation/fail4375l.d output-exists-not fail4375l.s
+PASS: fail_compilation/fail4375m.d (test for excess errors)
+PASS: fail_compilation/fail4375m.d output-exists-not fail4375m.s
+PASS: fail_compilation/fail4375o.d (test for excess errors)
+PASS: fail_compilation/fail4375o.d output-exists-not fail4375o.s
+PASS: fail_compilation/fail4375p.d (test for excess errors)
+PASS: fail_compilation/fail4375p.d output-exists-not fail4375p.s
+PASS: fail_compilation/fail4375q.d (test for excess errors)
+PASS: fail_compilation/fail4375q.d output-exists-not fail4375q.s
+PASS: fail_compilation/fail4375r.d (test for excess errors)
+PASS: fail_compilation/fail4375r.d output-exists-not fail4375r.s
+PASS: fail_compilation/fail4375s.d (test for excess errors)
+PASS: fail_compilation/fail4375s.d output-exists-not fail4375s.s
+PASS: fail_compilation/fail4375t.d (test for excess errors)
+PASS: fail_compilation/fail4375t.d output-exists-not fail4375t.s
+PASS: fail_compilation/fail4375u.d (test for excess errors)
+PASS: fail_compilation/fail4375u.d output-exists-not fail4375u.s
+PASS: fail_compilation/fail4375v.d (test for excess errors)
+PASS: fail_compilation/fail4375v.d output-exists-not fail4375v.s
+PASS: fail_compilation/fail4375w.d (test for excess errors)
+PASS: fail_compilation/fail4375w.d output-exists-not fail4375w.s
+PASS: fail_compilation/fail4375x.d (test for excess errors)
+PASS: fail_compilation/fail4375x.d output-exists-not fail4375x.s
+PASS: fail_compilation/fail4375y.d (test for excess errors)
+PASS: fail_compilation/fail4375y.d output-exists-not fail4375y.s
+PASS: fail_compilation/fail44.d (test for excess errors)
+PASS: fail_compilation/fail44.d output-exists-not fail44.s
+PASS: fail_compilation/fail45.d (test for excess errors)
+PASS: fail_compilation/fail45.d output-exists-not fail45.s
+PASS: fail_compilation/fail4511.d (test for excess errors)
+PASS: fail_compilation/fail4511.d output-exists-not fail4511.s
+PASS: fail_compilation/fail46.d (test for excess errors)
+PASS: fail_compilation/fail46.d output-exists-not fail46.s
+PASS: fail_compilation/fail47.d (test for excess errors)
+PASS: fail_compilation/fail47.d output-exists-not fail47.s
+PASS: fail_compilation/fail4958.d (test for excess errors)
+PASS: fail_compilation/fail4958.d output-exists-not fail4958.s
+PASS: fail_compilation/fail50.d (test for excess errors)
+PASS: fail_compilation/fail50.d output-exists-not fail50.s
+PASS: fail_compilation/fail51.d (test for excess errors)
+PASS: fail_compilation/fail51.d output-exists-not fail51.s
+PASS: fail_compilation/fail52.d (test for excess errors)
+PASS: fail_compilation/fail52.d output-exists-not fail52.s
+PASS: fail_compilation/fail53.d (test for excess errors)
+PASS: fail_compilation/fail53.d output-exists-not fail53.s
+PASS: fail_compilation/fail54.d (test for excess errors)
+PASS: fail_compilation/fail54.d output-exists-not fail54.s
+PASS: fail_compilation/fail55.d (test for excess errors)
+PASS: fail_compilation/fail55.d output-exists-not fail55.s
+PASS: fail_compilation/fail56.d (test for excess errors)
+PASS: fail_compilation/fail56.d output-exists-not fail56.s
+PASS: fail_compilation/fail57.d (test for excess errors)
+PASS: fail_compilation/fail57.d output-exists-not fail57.s
+PASS: fail_compilation/fail5733.d (test for excess errors)
+PASS: fail_compilation/fail5733.d output-exists-not fail5733.s
+PASS: fail_compilation/fail58.d (test for excess errors)
+PASS: fail_compilation/fail58.d output-exists-not fail58.s
+PASS: fail_compilation/fail59.d (test for excess errors)
+PASS: fail_compilation/fail59.d output-exists-not fail59.s
+PASS: fail_compilation/fail5953a1.d (test for excess errors)
+PASS: fail_compilation/fail5953a1.d output-exists-not fail5953a1.s
+PASS: fail_compilation/fail5953a2.d (test for excess errors)
+PASS: fail_compilation/fail5953a2.d output-exists-not fail5953a2.s
+PASS: fail_compilation/fail5953s1.d (test for excess errors)
+PASS: fail_compilation/fail5953s1.d output-exists-not fail5953s1.s
+PASS: fail_compilation/fail5953s2.d (test for excess errors)
+PASS: fail_compilation/fail5953s2.d output-exists-not fail5953s2.s
+PASS: fail_compilation/fail60.d (test for excess errors)
+PASS: fail_compilation/fail60.d output-exists-not fail60.s
+PASS: fail_compilation/fail6029.d (test for excess errors)
+PASS: fail_compilation/fail6029.d output-exists-not fail6029.s
+PASS: fail_compilation/fail61.d (test for excess errors)
+PASS: fail_compilation/fail61.d output-exists-not fail61.s
+PASS: fail_compilation/fail62.d (test for excess errors)
+PASS: fail_compilation/fail62.d output-exists-not fail62.s
+PASS: fail_compilation/fail6242.d (test for excess errors)
+PASS: fail_compilation/fail6242.d output-exists-not fail6242.s
+PASS: fail_compilation/fail63.d (test for excess errors)
+PASS: fail_compilation/fail63.d output-exists-not fail63.s
+PASS: fail_compilation/fail6451.d (test for excess errors)
+FAIL: fail_compilation/fail6451.d output-exists-not fail6451.s
+PASS: fail_compilation/fail6561.d (test for excess errors)
+PASS: fail_compilation/fail6561.d output-exists-not fail6561.s
+PASS: fail_compilation/fail6572.d (test for excess errors)
+PASS: fail_compilation/fail6572.d output-exists-not fail6572.s
+PASS: fail_compilation/fail66.d (test for excess errors)
+PASS: fail_compilation/fail66.d output-exists-not fail66.s
+PASS: fail_compilation/fail6611.d (test for excess errors)
+PASS: fail_compilation/fail6611.d output-exists-not fail6611.s
+PASS: fail_compilation/fail67.d (test for excess errors)
+PASS: fail_compilation/fail67.d output-exists-not fail67.s
+PASS: fail_compilation/fail6781.d (test for excess errors)
+PASS: fail_compilation/fail6781.d output-exists-not fail6781.s
+PASS: fail_compilation/fail68.d (test for excess errors)
+PASS: fail_compilation/fail68.d output-exists-not fail68.s
+PASS: fail_compilation/fail69.d (test for excess errors)
+PASS: fail_compilation/fail69.d output-exists-not fail69.s
+PASS: fail_compilation/fail6968.d (test for excess errors)
+PASS: fail_compilation/fail6968.d output-exists-not fail6968.s
+PASS: fail_compilation/fail70.d (test for excess errors)
+PASS: fail_compilation/fail70.d output-exists-not fail70.s
+PASS: fail_compilation/fail71.d (test for excess errors)
+PASS: fail_compilation/fail71.d output-exists-not fail71.s
+PASS: fail_compilation/fail7173.d (test for excess errors)
+PASS: fail_compilation/fail7173.d output-exists-not fail7173.s
+PASS: fail_compilation/fail7178.d (test for excess errors)
+PASS: fail_compilation/fail7178.d output-exists-not fail7178.s
+PASS: fail_compilation/fail72.d (test for excess errors)
+PASS: fail_compilation/fail72.d output-exists-not fail72.s
+PASS: fail_compilation/fail7234.d (test for excess errors)
+PASS: fail_compilation/fail7234.d output-exists-not fail7234.s
+PASS: fail_compilation/fail7294.d (test for excess errors)
+PASS: fail_compilation/fail7294.d output-exists-not fail7294.s
+PASS: fail_compilation/fail73.d (test for excess errors)
+PASS: fail_compilation/fail73.d output-exists-not fail73.s
+PASS: fail_compilation/fail7369.d (test for excess errors)
+PASS: fail_compilation/fail7369.d output-exists-not fail7369.s
+PASS: fail_compilation/fail74.d (test for excess errors)
+PASS: fail_compilation/fail74.d output-exists-not fail74.s
+PASS: fail_compilation/fail7424b.d (test for excess errors)
+PASS: fail_compilation/fail7424b.d output-exists-not fail7424b.s
+PASS: fail_compilation/fail7424c.d (test for excess errors)
+PASS: fail_compilation/fail7424c.d output-exists-not fail7424c.s
+PASS: fail_compilation/fail7424d.d (test for excess errors)
+PASS: fail_compilation/fail7424d.d output-exists-not fail7424d.s
+PASS: fail_compilation/fail7424e.d (test for excess errors)
+PASS: fail_compilation/fail7424e.d output-exists-not fail7424e.s
+PASS: fail_compilation/fail7424f.d (test for excess errors)
+PASS: fail_compilation/fail7424f.d output-exists-not fail7424f.s
+PASS: fail_compilation/fail7424g.d (test for excess errors)
+PASS: fail_compilation/fail7424g.d output-exists-not fail7424g.s
+PASS: fail_compilation/fail7424h.d (test for excess errors)
+PASS: fail_compilation/fail7424h.d output-exists-not fail7424h.s
+PASS: fail_compilation/fail7424i.d (test for excess errors)
+PASS: fail_compilation/fail7424i.d output-exists-not fail7424i.s
+PASS: fail_compilation/fail75.d (test for excess errors)
+PASS: fail_compilation/fail75.d output-exists-not fail75.s
+PASS: fail_compilation/fail76.d (test for excess errors)
+PASS: fail_compilation/fail76.d output-exists-not fail76.s
+PASS: fail_compilation/fail7695.d (test for excess errors)
+PASS: fail_compilation/fail7695.d output-exists-not fail7695.s
+PASS: fail_compilation/fail77.d (test for excess errors)
+PASS: fail_compilation/fail77.d output-exists-not fail77.s
+PASS: fail_compilation/fail7702.d (test for excess errors)
+PASS: fail_compilation/fail7702.d output-exists-not fail7702.s
+PASS: fail_compilation/fail7751.d (test for excess errors)
+PASS: fail_compilation/fail7751.d output-exists-not fail7751.s
+PASS: fail_compilation/fail78.d (test for excess errors)
+PASS: fail_compilation/fail78.d output-exists-not fail78.s
+PASS: fail_compilation/fail7859.d (test for excess errors)
+PASS: fail_compilation/fail7859.d output-exists-not fail7859.s
+PASS: fail_compilation/fail7861.d (test for excess errors)
+PASS: fail_compilation/fail7861.d output-exists-not fail7861.s
+PASS: fail_compilation/fail7862.d (test for excess errors)
+PASS: fail_compilation/fail7862.d output-exists-not fail7862.s
+PASS: fail_compilation/fail7886.d (test for excess errors)
+PASS: fail_compilation/fail7886.d output-exists-not fail7886.s
+PASS: fail_compilation/fail79.d (test for excess errors)
+PASS: fail_compilation/fail79.d output-exists-not fail79.s
+PASS: fail_compilation/fail8.d (test for excess errors)
+PASS: fail_compilation/fail8.d output-exists-not fail8.s
+PASS: fail_compilation/fail80.d (test for excess errors)
+PASS: fail_compilation/fail80.d output-exists-not fail80.s
+PASS: fail_compilation/fail86.d (test for excess errors)
+PASS: fail_compilation/fail86.d output-exists-not fail86.s
+PASS: fail_compilation/fail87.d (test for excess errors)
+PASS: fail_compilation/fail87.d output-exists-not fail87.s
+PASS: fail_compilation/fail88.d (test for excess errors)
+PASS: fail_compilation/fail88.d output-exists-not fail88.s
+PASS: fail_compilation/fail89.d (test for excess errors)
+PASS: fail_compilation/fail89.d output-exists-not fail89.s
+PASS: fail_compilation/fail9.d (test for excess errors)
+PASS: fail_compilation/fail9.d output-exists-not fail9.s
+PASS: fail_compilation/fail90.d (test for excess errors)
+PASS: fail_compilation/fail90.d output-exists-not fail90.s
+PASS: fail_compilation/fail91.d (test for excess errors)
+PASS: fail_compilation/fail91.d output-exists-not fail91.s
+PASS: fail_compilation/fail92.d (test for excess errors)
+PASS: fail_compilation/fail92.d output-exists-not fail92.s
+PASS: fail_compilation/fail93.d (test for excess errors)
+PASS: fail_compilation/fail93.d output-exists-not fail93.s
+PASS: fail_compilation/fail94.d (test for excess errors)
+PASS: fail_compilation/fail94.d output-exists-not fail94.s
+PASS: fail_compilation/fail95.d (test for excess errors)
+PASS: fail_compilation/fail95.d output-exists-not fail95.s
+PASS: fail_compilation/fail96.d (test for excess errors)
+PASS: fail_compilation/fail96.d output-exists-not fail96.s
+PASS: fail_compilation/fail97.d (test for excess errors)
+PASS: fail_compilation/fail97.d output-exists-not fail97.s
+PASS: fail_compilation/fail98.d (test for excess errors)
+PASS: fail_compilation/fail98.d output-exists-not fail98.s
+PASS: fail_compilation/fail99.d (test for excess errors)
+PASS: fail_compilation/fail99.d output-exists-not fail99.s
+PASS: fail_compilation/failinout1.d (test for excess errors)
+PASS: fail_compilation/failinout1.d output-exists-not failinout1.s
+PASS: fail_compilation/failinout2.d (test for excess errors)
+PASS: fail_compilation/failinout2.d output-exists-not failinout2.s
+PASS: fail_compilation/failinout3748a.d (test for excess errors)
+PASS: fail_compilation/failinout3748a.d output-exists-not failinout3748a.s
+PASS: fail_compilation/failinout3748b.d (test for excess errors)
+PASS: fail_compilation/failinout3748b.d output-exists-not failinout3748b.s
+PASS: fail_compilation/fix350a.d (test for excess errors)
+PASS: fail_compilation/fix350a.d output-exists-not fix350a.s
+PASS: fail_compilation/fix350b.d (test for excess errors)
+PASS: fail_compilation/fix350b.d output-exists-not fix350b.s
+PASS: fail_compilation/gag4269a.d (test for excess errors)
+PASS: fail_compilation/gag4269a.d output-exists-not gag4269a.s
+PASS: fail_compilation/gag4269b.d (test for excess errors)
+PASS: fail_compilation/gag4269b.d output-exists-not gag4269b.s
+PASS: fail_compilation/gag4269c.d (test for excess errors)
+PASS: fail_compilation/gag4269c.d output-exists-not gag4269c.s
+PASS: fail_compilation/gag4269d.d (test for excess errors)
+PASS: fail_compilation/gag4269d.d output-exists-not gag4269d.s
+PASS: fail_compilation/gag4269e.d (test for excess errors)
+PASS: fail_compilation/gag4269e.d output-exists-not gag4269e.s
+PASS: fail_compilation/gag4269f.d (test for excess errors)
+PASS: fail_compilation/gag4269f.d output-exists-not gag4269f.s
+PASS: fail_compilation/pragmamsg7568.d (test for excess errors)
+PASS: fail_compilation/pragmamsg7568.d output-exists-not pragmamsg7568.s
+PASS: fail_compilation/test1.d (test for excess errors)
+PASS: fail_compilation/test1.d output-exists-not test1.s
+PASS: fail_compilation/test5412a.d (test for excess errors)
+PASS: fail_compilation/test5412a.d output-exists-not test5412a.s
+PASS: fail_compilation/test5412b.d (test for excess errors)
+PASS: fail_compilation/test5412b.d output-exists-not test5412b.s
+PASS: fail_compilation/test5412c.d (test for excess errors)
+PASS: fail_compilation/test5412c.d output-exists-not test5412c.s
+PASS: fail_compilation/test64.d (test for excess errors)
+PASS: fail_compilation/test64.d output-exists-not test64.s
+PASS: runnable/A16.d (test for excess errors)
+PASS: runnable/A16.d execution test
+PASS: runnable/Same.d (test for excess errors)
+PASS: runnable/Same.d execution test
+PASS: runnable/a17.d (test for excess errors)
+PASS: runnable/a17.d execution test
+PASS: runnable/a18.d (test for excess errors)
+PASS: runnable/a18.d execution test
+PASS: runnable/a19.d (test for excess errors)
+PASS: runnable/a19.d execution test
+PASS: runnable/a21.d (test for excess errors)
+PASS: runnable/a21.d execution test
+PASS: runnable/aliasthis.d (test for excess errors)
+PASS: runnable/aliasthis.d execution test
+PASS: runnable/argufilem.d (test for excess errors)
+PASS: runnable/argufilem.d execution test
+PASS: runnable/arrayop.d (test for excess errors)
+PASS: runnable/arrayop.d execution test
+PASS: runnable/assignable.d (test for excess errors)
+PASS: runnable/assignable.d execution test
+PASS: runnable/auto1.d (test for excess errors)
+PASS: runnable/auto1.d execution test
+PASS: runnable/b26.d (test for excess errors)
+PASS: runnable/b26.d execution test
+PASS: runnable/bench1.d (test for excess errors)
+FAIL: runnable/bench1.d execution test
+PASS: runnable/bitops.d (test for excess errors)
+PASS: runnable/bitops.d execution test
+PASS: runnable/bug5.d (test for excess errors)
+PASS: runnable/bug5.d execution test
+PASS: runnable/bug846.d (test for excess errors)
+PASS: runnable/bug846.d execution test
+PASS: runnable/builtin.d (test for excess errors)
+PASS: runnable/builtin.d execution test
+PASS: runnable/c22.d (test for excess errors)
+PASS: runnable/c22.d execution test
+PASS: runnable/circular.d (test for excess errors)
+PASS: runnable/circular.d execution test
+PASS: runnable/closure.d (test for excess errors)
+PASS: runnable/closure.d execution test
+PASS: runnable/complex.d (test for excess errors)
+PASS: runnable/complex.d execution test
+PASS: runnable/constfold.d (test for excess errors)
+UNRESOLVED: runnable/constfold.d compilation failed to produce executable
+PASS: runnable/ctorpowtests.d (test for excess errors)
+UNRESOLVED: runnable/ctorpowtests.d compilation failed to produce executable
+PASS: runnable/declaration.d (test for excess errors)
+PASS: runnable/declaration.d execution test
+PASS: runnable/delegate.d (test for excess errors)
+PASS: runnable/delegate.d execution test
+FAIL: runnable/deprecate1.d (internal compiler error)
+PASS: runnable/deprecate1.d (test for excess errors)
+UNRESOLVED: runnable/deprecate1.d compilation failed to produce executable
+PASS: runnable/dhry.d (test for excess errors)
+PASS: runnable/dhry.d execution test
+PASS: runnable/eh.d (test for excess errors)
+PASS: runnable/eh.d execution test
+PASS: runnable/eh2.d (test for excess errors)
+PASS: runnable/eh2.d execution test
+PASS: runnable/entity1.d (test for excess errors)
+PASS: runnable/entity1.d execution test
+PASS: runnable/extern1.d (test for excess errors)
+PASS: runnable/extern1.d execution test
+PASS: runnable/foreach.d (test for excess errors)
+PASS: runnable/foreach.d execution test
+PASS: runnable/foreach2.d (test for excess errors)
+PASS: runnable/foreach2.d execution test
+PASS: runnable/foreach3.d (test for excess errors)
+PASS: runnable/foreach3.d execution test
+PASS: runnable/foreach4.d (test for excess errors)
+PASS: runnable/foreach4.d execution test
+PASS: runnable/foreach5.d (test for excess errors)
+PASS: runnable/foreach5.d execution test
+PASS: runnable/funclit.d (test for excess errors)
+PASS: runnable/funclit.d execution test
+PASS: runnable/hello.d (test for excess errors)
+PASS: runnable/hello.d execution test
+PASS: runnable/helloUTF16.d (test for excess errors)
+UNRESOLVED: runnable/helloUTF16.d compilation failed to produce executable
+PASS: runnable/helloUTF16BE.d (test for excess errors)
+UNRESOLVED: runnable/helloUTF16BE.d compilation failed to produce executable
+PASS: runnable/helloUTF8.d (test for excess errors)
+UNRESOLVED: runnable/helloUTF8.d compilation failed to produce executable
+PASS: runnable/hospital.d (test for excess errors)
+PASS: runnable/hospital.d execution test
+PASS: runnable/iasm.d (test for excess errors)
+PASS: runnable/iasm.d execution test
+PASS: runnable/iasm64.d (test for excess errors)
+PASS: runnable/iasm64.d execution test
+PASS: runnable/ifti.d (test for excess errors)
+PASS: runnable/ifti.d execution test
+PASS: runnable/implicit.d (test for excess errors)
+PASS: runnable/implicit.d execution test
+PASS: runnable/inline.d (test for excess errors)
+PASS: runnable/inline.d execution test
+PASS: runnable/inline2.d (test for excess errors)
+PASS: runnable/inline2.d execution test
+PASS: runnable/inner.d (test for excess errors)
+PASS: runnable/inner.d execution test
+PASS: runnable/integrate.d (test for excess errors)
+PASS: runnable/integrate.d execution test
+PASS: runnable/interface.d (test for excess errors)
+PASS: runnable/interface.d execution test
+PASS: runnable/interface1.d (test for excess errors)
+PASS: runnable/interface1.d execution test
+PASS: runnable/interface2.d (test for excess errors)
+PASS: runnable/interface2.d execution test
+PASS: runnable/interface3.d (test for excess errors)
+PASS: runnable/interface3.d execution test
+PASS: runnable/interpret.d (test for excess errors)
+PASS: runnable/interpret.d execution test
+PASS: runnable/interpret2.d (test for excess errors)
+PASS: runnable/interpret2.d execution test
+PASS: runnable/lazy.d (test for excess errors)
+PASS: runnable/lazy.d execution test
+PASS: runnable/lexer.d (test for excess errors)
+PASS: runnable/lexer.d execution test
+PASS: runnable/link7745.d (test for excess errors)
+UNRESOLVED: runnable/link7745.d compilation failed to produce executable
+PASS: runnable/literal.d (test for excess errors)
+PASS: runnable/literal.d execution test
+PASS: runnable/m1.d (test for excess errors)
+PASS: runnable/m1.d execution test
+PASS: runnable/manboy.d (test for excess errors)
+PASS: runnable/manboy.d execution test
+PASS: runnable/mars1.d (test for excess errors)
+PASS: runnable/mars1.d execution test
+PASS: runnable/mixin1.d (test for excess errors)
+PASS: runnable/mixin1.d execution test
+PASS: runnable/mixin2.d (test for excess errors)
+PASS: runnable/mixin2.d execution test
+PASS: runnable/mod1.d (test for excess errors)
+PASS: runnable/mod1.d execution test
+PASS: runnable/nan.d (test for excess errors)
+PASS: runnable/nan.d execution test
+PASS: runnable/nested.d (test for excess errors)
+PASS: runnable/nested.d execution test
+PASS: runnable/newdel.d (test for excess errors)
+PASS: runnable/newdel.d execution test
+PASS: runnable/nulltype.d (test for excess errors)
+PASS: runnable/nulltype.d execution test
+PASS: runnable/opdisp.d (test for excess errors)
+PASS: runnable/opdisp.d execution test
+PASS: runnable/opover.d (test for excess errors)
+PASS: runnable/opover.d execution test
+PASS: runnable/opover2.d (test for excess errors)
+PASS: runnable/opover2.d execution test
+PASS: runnable/overload.d (test for excess errors)
+PASS: runnable/overload.d execution test
+PASS: runnable/pi.d (test for excess errors)
+FAIL: runnable/pi.d execution test
+PASS: runnable/polysemous.d (test for excess errors)
+PASS: runnable/polysemous.d execution test
+PASS: runnable/printargs.d (test for excess errors)
+FAIL: runnable/printargs.d execution test
+PASS: runnable/property.d (test for excess errors)
+PASS: runnable/property.d execution test
+PASS: runnable/property2.d (test for excess errors)
+PASS: runnable/property2.d execution test
+PASS: runnable/s2ir.d (test for excess errors)
+PASS: runnable/s2ir.d execution test
+PASS: runnable/sdtor.d (test for excess errors)
+PASS: runnable/sdtor.d execution test
+PASS: runnable/statictor.d (test for excess errors)
+PASS: runnable/statictor.d execution test
+PASS: runnable/stress.d (test for excess errors)
+PASS: runnable/stress.d execution test
+PASS: runnable/structlit.d (test for excess errors)
+PASS: runnable/structlit.d execution test
+PASS: runnable/template1.d (test for excess errors)
+PASS: runnable/template1.d execution test
+PASS: runnable/template2.d (test for excess errors)
+PASS: runnable/template2.d execution test
+PASS: runnable/template3.d (test for excess errors)
+PASS: runnable/template3.d execution test
+PASS: runnable/template4.d (test for excess errors)
+PASS: runnable/template4.d execution test
+PASS: runnable/template6.d (test for excess errors)
+PASS: runnable/template6.d execution test
+PASS: runnable/template8.d (test for excess errors)
+PASS: runnable/template8.d execution test
+PASS: runnable/template9.d (test for excess errors)
+PASS: runnable/template9.d execution test
+PASS: runnable/test10.d (test for excess errors)
+PASS: runnable/test10.d execution test
+PASS: runnable/test11.d (test for excess errors)
+PASS: runnable/test11.d execution test
+PASS: runnable/test12.d (test for excess errors)
+PASS: runnable/test12.d execution test
+PASS: runnable/test13.d (test for excess errors)
+PASS: runnable/test13.d execution test
+PASS: runnable/test15.d (test for excess errors)
+FAIL: runnable/test15.d execution test
+PASS: runnable/test16.d (test for excess errors)
+PASS: runnable/test16.d execution test
+PASS: runnable/test17.d (test for excess errors)
+PASS: runnable/test17.d execution test
+PASS: runnable/test19.d (test for excess errors)
+FAIL: runnable/test19.d execution test
+PASS: runnable/test20.d (test for excess errors)
+PASS: runnable/test20.d execution test
+PASS: runnable/test21.d (test for excess errors)
+PASS: runnable/test21.d execution test
+PASS: runnable/test22.d (test for excess errors)
+PASS: runnable/test22.d execution test
+PASS: runnable/test23.d (test for excess errors)
+UNRESOLVED: runnable/test23.d compilation failed to produce executable
+PASS: runnable/test24.d (test for excess errors)
+PASS: runnable/test24.d execution test
+PASS: runnable/test27.d (test for excess errors)
+PASS: runnable/test27.d execution test
+PASS: runnable/test28.d (test for excess errors)
+PASS: runnable/test28.d execution test
+PASS: runnable/test29.d (test for excess errors)
+PASS: runnable/test29.d execution test
+PASS: runnable/test3.d (test for excess errors)
+PASS: runnable/test3.d execution test
+PASS: runnable/test30.d (test for excess errors)
+PASS: runnable/test30.d execution test
+PASS: runnable/test31.d (test for excess errors)
+PASS: runnable/test31.d execution test
+PASS: runnable/test32.d (test for excess errors)
+PASS: runnable/test32.d execution test
+PASS: runnable/test34.d (test for excess errors)
+UNRESOLVED: runnable/test34.d compilation failed to produce executable
+PASS: runnable/test36.d (test for excess errors)
+UNRESOLVED: runnable/test36.d compilation failed to produce executable
+PASS: runnable/test37.d (test for excess errors)
+UNRESOLVED: runnable/test37.d compilation failed to produce executable
+PASS: runnable/test38.d (test for excess errors)
+PASS: runnable/test38.d execution test
+PASS: runnable/test4.d (test for excess errors)
+FAIL: runnable/test4.d execution test
+PASS: runnable/test40.d (test for excess errors)
+PASS: runnable/test40.d execution test
+PASS: runnable/test41.d (test for excess errors)
+FAIL: runnable/test41.d execution test
+PASS: runnable/test42.d (test for excess errors)
+UNRESOLVED: runnable/test42.d compilation failed to produce executable
+PASS: runnable/test42a.d (test for excess errors)
+PASS: runnable/test42a.d execution test
+PASS: runnable/test435.d (test for excess errors)
+PASS: runnable/test435.d execution test
+PASS: runnable/test45.d (test for excess errors)
+PASS: runnable/test45.d execution test
+PASS: runnable/test46.d (test for excess errors)
+PASS: runnable/test46.d execution test
+PASS: runnable/test48.d (test for excess errors)
+PASS: runnable/test48.d execution test
+PASS: runnable/test49.d (test for excess errors)
+PASS: runnable/test49.d execution test
+PASS: runnable/test5.d (test for excess errors)
+PASS: runnable/test5.d execution test
+PASS: runnable/test52.d (test for excess errors)
+PASS: runnable/test52.d execution test
+PASS: runnable/test57.d (test for excess errors)
+PASS: runnable/test57.d execution test
+PASS: runnable/test58.d (test for excess errors)
+PASS: runnable/test58.d execution test
+PASS: runnable/test60.d (test for excess errors)
+PASS: runnable/test60.d execution test
+PASS: runnable/test61.d (test for excess errors)
+PASS: runnable/test61.d execution test
+PASS: runnable/test7.d (test for excess errors)
+PASS: runnable/test7.d execution test
+PASS: runnable/test7452.d (test for excess errors)
+PASS: runnable/test7452.d execution test
+PASS: runnable/test8.d (test for excess errors)
+PASS: runnable/test8.d execution test
+PASS: runnable/test9.d (test for excess errors)
+PASS: runnable/test9.d execution test
+PASS: runnable/testUTF32.d (test for excess errors)
+UNRESOLVED: runnable/testUTF32.d compilation failed to produce executable
+PASS: runnable/testaa.d (test for excess errors)
+PASS: runnable/testaa.d execution test
+PASS: runnable/testaa2.d (test for excess errors)
+PASS: runnable/testaa2.d execution test
+PASS: runnable/testappend.d (test for excess errors)
+PASS: runnable/testappend.d execution test
+PASS: runnable/testarray.d (test for excess errors)
+PASS: runnable/testarray.d execution test
+PASS: runnable/testbitarray.d (test for excess errors)
+PASS: runnable/testbitarray.d execution test
+PASS: runnable/testbounds.d (test for excess errors)
+PASS: runnable/testbounds.d execution test
+PASS: runnable/testconst.d (test for excess errors)
+PASS: runnable/testconst.d execution test
+PASS: runnable/testcontracts.d (test for excess errors)
+PASS: runnable/testcontracts.d execution test
+PASS: runnable/testdstress.d (test for excess errors)
+PASS: runnable/testdstress.d execution test
+PASS: runnable/testdt.d (test for excess errors)
+PASS: runnable/testdt.d execution test
+PASS: runnable/testenum.d (test for excess errors)
+PASS: runnable/testenum.d execution test
+PASS: runnable/testfile.d (test for excess errors)
+PASS: runnable/testfile.d execution test
+PASS: runnable/testformat.d (test for excess errors)
+FAIL: runnable/testformat.d execution test
+PASS: runnable/testgc2.d (test for excess errors)
+PASS: runnable/testgc2.d execution test
+PASS: runnable/testgc3.d (test for excess errors)
+PASS: runnable/testgc3.d execution test
+PASS: runnable/testinvariant.d (test for excess errors)
+PASS: runnable/testinvariant.d execution test
+PASS: runnable/testline.d (test for excess errors)
+PASS: runnable/testline.d execution test
+PASS: runnable/testmath.d (test for excess errors)
+PASS: runnable/testmath.d execution test
+PASS: runnable/testminit.d (test for excess errors)
+PASS: runnable/testminit.d execution test
+PASS: runnable/testmmfile.d (test for excess errors)
+PASS: runnable/testmmfile.d execution test
+PASS: runnable/testmod1.d (test for excess errors)
+PASS: runnable/testmod1.d execution test
+PASS: runnable/testmod2.d (test for excess errors)
+PASS: runnable/testmod2.d execution test
+PASS: runnable/testmodule.d (test for excess errors)
+PASS: runnable/testmodule.d execution test
+PASS: runnable/testprofile.d (test for excess errors)
+PASS: runnable/testprofile.d execution test
+PASS: runnable/testsafe.d (test for excess errors)
+UNRESOLVED: runnable/testsafe.d compilation failed to produce executable
+PASS: runnable/testscope.d (test for excess errors)
+PASS: runnable/testscope.d execution test
+PASS: runnable/testsignals.d (test for excess errors)
+PASS: runnable/testsignals.d execution test
+PASS: runnable/testsocket.d (test for excess errors)
+PASS: runnable/testsocket.d execution test
+PASS: runnable/teststdio.d (test for excess errors)
+FAIL: runnable/teststdio.d execution test
+PASS: runnable/testswitch.d (test for excess errors)
+PASS: runnable/testswitch.d execution test
+PASS: runnable/testthread.d (test for excess errors)
+PASS: runnable/testthread.d execution test
+PASS: runnable/testthread2.d (test for excess errors)
+PASS: runnable/testthread2.d execution test
+PASS: runnable/testtypeid.d (test for excess errors)
+PASS: runnable/testtypeid.d execution test
+PASS: runnable/testv.d (test for excess errors)
+PASS: runnable/testv.d execution test
+PASS: runnable/testxmm.d (test for excess errors)
+PASS: runnable/testxmm.d execution test
+PASS: runnable/testzip.d (test for excess errors)
+FAIL: runnable/testzip.d execution test
+PASS: runnable/tls.d (test for excess errors)
+PASS: runnable/tls.d execution test
+PASS: runnable/tls_dup.d (test for excess errors)
+PASS: runnable/tls_dup.d execution test
+PASS: runnable/traits.d (test for excess errors)
+PASS: runnable/traits.d execution test
+PASS: runnable/ufcs.d (test for excess errors)
+PASS: runnable/ufcs.d execution test
+PASS: runnable/untag.d (test for excess errors)
+UNRESOLVED: runnable/untag.d compilation failed to produce executable
+PASS: runnable/variadic.d (test for excess errors)
+PASS: runnable/variadic.d execution test
+PASS: runnable/version.d (test for excess errors)
+FAIL: runnable/version.d execution test
+PASS: runnable/warning1.d (test for excess errors)
+PASS: runnable/warning1.d execution test
+PASS: runnable/wc.d (test for excess errors)
+PASS: runnable/wc.d execution test
+PASS: runnable/wc2.d (test for excess errors)
+PASS: runnable/wc2.d execution test
+PASS: runnable/wc3.d (test for excess errors)
+PASS: runnable/wc3.d execution test
+PASS: runnable/xtest46.d (test for excess errors)
+FAIL: runnable/xtest46.d execution test
+PASS: runnable/xtest55.d (test for excess errors)
+PASS: runnable/xtest55.d execution test
+PASS: runnable/xtestenum.d (test for excess errors)
+PASS: runnable/xtestenum.d execution test
+
+		=== gdc Summary ===
+
+# of expected passes		1290
+# of unexpected failures	20
+# of unresolved testcases	15
+/home/jpf/gdc/objdir/gcc/testsuite/gdc/../../gdc  version 4.7.1 (GCC) 
+
